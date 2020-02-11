@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "phone-search": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "phone-search"
+    }
+  },
+  "defaultProject": "phone-search",
+  "cli": {
+    "analytics": "67cd5099-a025-4cc8-bca1-bf4fb55daaed"
+  }
 }

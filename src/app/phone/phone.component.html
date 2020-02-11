@@ -1,0 +1,16 @@
+<h2>phone works!</h2>
+<div> 
+  <ul>
+    <li *ngFor = "let phone of phones">
+     Name = {{phone.name}} , number is {{phone.number}}
+    </li>
+  </ul>
+</div>
+<div>
+  <form formGroup="phoneForm">
+    <label for="txxPhone">Phone Number Search </label>
+    <input type="text" id="txtPhone"  formControlName="phoneNumber" />
+    <button type="button" (click)="fetchPhones()">Submit</button>
+  </form>
+ 
+</div>
